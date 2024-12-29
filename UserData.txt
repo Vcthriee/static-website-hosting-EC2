@@ -1,1 +1,4 @@
-# testing connection to remote git via  push to remote git from local git .git
+# testing connection to remote git via  push to remote git from local git 
+
+
+#practicing how to branch a repo xxx
