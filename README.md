@@ -35,3 +35,6 @@ This project demonstrates how to host a simple static website using an **Amazon 
 INSTALLED APACHE
 sudo apt update
 sudo apt install apache2 -y
+
+Screanshots 
+[landing page](https://github.com/Vcthriee/static-website-hosting-EC2/blob/main/Screenshot%202025-03-13%20235351.png)
