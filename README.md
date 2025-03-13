@@ -31,3 +31,7 @@ This project demonstrates how to host a simple static website using an **Amazon 
 3. SSH'd into the server:
    ```bash
    ssh -i ~/Downloads/my-key.pem ubuntu@<EC2_PUBLIC_IP>
+   
+INSTALLED APACHE
+sudo apt update
+sudo apt install apache2 -y
