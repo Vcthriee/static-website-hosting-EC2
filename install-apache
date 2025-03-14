@@ -1,0 +1,10 @@
+Installed Apache
+sudo apt update
+sudo apt install apache2 -y
+Replaced default Apache page with my custom HTML page:
+
+sudo mv index.html /var/www/html/
+Opened port 80 (HTTP) in Security Group to allow web traffic
+Accessed the website via browser using the EC2 public IP:
+
+http://<EC2_PUBLIC_IP>
