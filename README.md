@@ -57,5 +57,9 @@ FLOW:
   ⬇
 [Apache Web Server]
   ⬇
-[index.html Landing Page]
+[index.html Landing Page]  
+
+👨‍💻 Author
+Victory Arikpo
+Aspiring AWS Cloud Engineer 🚀
 
