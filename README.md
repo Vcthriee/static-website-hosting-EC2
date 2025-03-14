@@ -38,3 +38,24 @@ sudo apt install apache2 -y
 
 Screanshots 
 [landing page](https://github.com/Vcthriee/static-website-hosting-EC2/blob/main/Screenshot%202025-03-13%20235351.png)
+
+🧭 Architecture Diagram
+
+📌 A user accesses the EC2-hosted website via HTTP through a public IP. Apache serves static content stored in /var/www/html.
+
+[User] ⬇ [Internet] ⬇ [Security Group - HTTP/SSH] ⬇ [EC2 Instance] ⬇ [Apache Web Server] ⬇ [index.html Landing Page]
+
+FLOW:
+
+[User]
+  ⬇
+[Internet]
+  ⬇
+[Security Group - HTTP/SSH]
+  ⬇
+[EC2 Instance]
+  ⬇
+[Apache Web Server]
+  ⬇
+[index.html Landing Page]
+
